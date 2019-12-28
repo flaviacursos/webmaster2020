@@ -1,0 +1,19 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+.hero {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    align-items: center;
+    color: white;
+}
+
