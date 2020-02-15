@@ -19,3 +19,43 @@ h1, h2 {
 .staff {
     background: #efefef;
 }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    font-family: "FontAwesome";
+    content: "\f138";
+    font-size: 55px;
+    color: #000;
+}
+
+.carousel-control-prev-icon:after {
+    font-family: "FontAwesome";
+    font-size: 55px;
+    content: "\f137";
+    color: #000;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonio .estrellas .fa-star {
+    color: #fab202;
+}
+
+.testimonio .estrellas .fa-star-o {
+    color: #aaa;
+}
