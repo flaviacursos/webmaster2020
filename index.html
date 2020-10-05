@@ -24,19 +24,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" data-scroll href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Novedades</a>
+                    <a class="nav-link" data-scroll href="#novedades">Novedades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Historia</a>
+                    <a class="nav-link" data-scroll href="#historia">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" data-scroll href="#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Conocenos</a>
+                    <a class="nav-link" data-scroll href="#conocenos">Conocenos</a>
             </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -46,7 +46,7 @@
     </nav>
     <!-- separador -->
     <div class="container-fluid">
-        <div class="row align-items-center hero">
+        <div id="home" class="row align-items-center hero">
             <div class="col-lg-3 offset-lg-2">
                 <p>Bajada</p>
                 <h1>Titulo Principal</h1>
@@ -56,7 +56,7 @@
         </div>
         <!-- separador -->
 
-        <div class="row py-4">
+        <div id="novedades" class="row py-4">
             <div class="col-md-5 offset-md-2 py-3">
                 <h2>Novedades</h2>
                 <ul class="lista-novedades">
@@ -133,7 +133,7 @@
 
         </div>
 
-        <div class="row align-items-center py-4">
+        <div id="historia" class="row align-items-center py-4">
             <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
                 <img src="img/historia_1.jpg" alt="hostoria 1" class="img-fluid">
             </div>
@@ -151,7 +151,7 @@
         </div>
         <!-- separador -->
 
-        <div class="row align-items-stretch my-3 staff py-4">
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4">
             <div class="col-lg-8 offset-lg-2">
                 <h2>Nosotros</h2>
                 <div class="card-deck">
@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <div class="row py-4">
+        <div id="conocenos" class="row py-4">
             <div class="col-md-4 offset-md-2">
                 <h2>Visitanos</h2>
                 <div class="embed-responsive embed-responsive-16by9">
@@ -246,6 +246,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
 
     <script>
         $('.carousel').carousel();
