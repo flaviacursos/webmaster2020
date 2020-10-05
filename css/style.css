@@ -20,6 +20,11 @@ h1, h2 {
     background: #efefef;
 }
 
+.testimonios{
+   background-color: #dadada; 
+   padding-bottom: 1.95rem !important; 
+}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
